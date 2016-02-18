@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m[32mRoverMovesTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mA rover[0m[0m
+[0m[[0minfo[0m] [0m[32m- should move through the plateau[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw an Exception when go out the plateau[0m[0m
