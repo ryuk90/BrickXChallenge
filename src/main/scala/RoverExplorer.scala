@@ -3,13 +3,6 @@ import scala.collection.mutable.ArrayBuffer
 
 /**
  * Created by Mirko Saiu on 18/02/16.
- *
- *
- *
- * INSTRUCTIONS: Run this file
- *
- *
- *
  */
 
 object RoverExplorer {
@@ -28,7 +21,7 @@ object RoverExplorer {
 
     // FLAG
     var is_number_inserted = false
-    // ASKS THE QUANTITY OF ROVER TO CREATE
+    // ASKS HOW MANY ROVER NEED TO BE CREATED
     while(!is_number_inserted) {
       try{
         num_rovers = readLine("Please insert how many rovers you want on the plateau: ").toInt
@@ -164,10 +157,6 @@ object RoverExplorer {
           move =>
             // DO A SINGLE MOVEMENT
             rover.move(move, plateau)
-            // CHECKS IF
-            if(rover.is_not_inside_plateau(plateau)) {
-              println("The rover quits the plateau")
-            }
         }
 
         println(rover)
